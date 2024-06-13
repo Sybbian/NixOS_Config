@@ -43,8 +43,6 @@
     LC_TIME = "nl_NL.UTF-8";
   };
 
-  # Enable Flatpak All Users = services.flatpak.enable = false;
-  # Enable Flatpak Builder All Users = environment.systemPackages = [ pkgs.flatpak-builder ];
   # Enable the X11 windowing system.
   services.xserver.enable = true;
 
